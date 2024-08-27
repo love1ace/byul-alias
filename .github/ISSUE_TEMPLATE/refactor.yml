@@ -1,0 +1,28 @@
+name: refactor
+description: Do you have code refactoring that does not alter behavior?
+title: "[refactor] "
+labels: ["refactor"]
+body:
+  - type: textarea
+    id: refactor-description
+    attributes:
+      label: 📄 Description
+      description: Please describe the refactoring changes.
+      placeholder: Provide detailed description!
+    validations:
+      required: true
+  - type: textarea
+    id: refactor-tasks
+    attributes:
+      label: ✅ Tasks
+      description: Please list the tasks that need to be done.
+      placeholder: Break them down as much as possible!
+    validations:
+      required: true
+  - type: textarea
+    id: refactor-notes
+    attributes:
+      label: 📝 Notes
+      description: Any additional notes?
+    validations:
+      required: false

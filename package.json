@@ -1,0 +1,43 @@
+{
+  "name": "byul-alias",
+  "version": "1.0.0",
+  "description": "Simple git alias manager",
+  "main": "dist/index.js",
+  "bin": {
+    "byul-alias": "./dist/index.js"
+  },
+  "license": "MIT",
+  "type": "module",
+  "author": "love1ace <lovelacedud@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byulhook/byul-alias.git"
+  },
+  "keywords": [
+    "git aliases",
+    "alias",
+    "love1ace",
+    "byul",
+    "byulhook"
+  ],
+  "bugs": {
+    "url": "https://github.com/byulhook/byul-alias/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/byulhook/byul-alias#readme",
+  "dependencies": {
+    "yaml": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "preinstall": "node dist/setup.mjs"
+  }
+}
