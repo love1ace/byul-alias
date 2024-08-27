@@ -39,7 +39,7 @@ node node_modules/byul-alias/dist/setup.mjs
 ```
 Or, you can manually create the `byul-alias.yml` file and add this code:
 
-```json
+```yaml
 # Common Git Alias Shortcuts
 # --------------------------
 # You can customize these aliases however you like.
